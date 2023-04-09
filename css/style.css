@@ -51,49 +51,6 @@ p{
     text-align: justify;
 }
 
-#mywebsite{
-    margin: 0;
-    padding: 0;
-    position: relative; 
-
-}
-
-
-
-#landing{
-
-    background-image: url("../img/landing-img.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 84.3em;
-    height: 35em;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    
-    color: white;
-    padding-top: 24.1%;
-    text-align: center;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 520px;
-    
-    
-    
-
-    
-}
-
-h1{
-    font-size: 46px;
-    padding-bottom: 0px;
-    margin: 0;
-    text-shadow: -1px 0 black;
-    text-indent: 0;
-    
-}
-
-
 
 #blog{
     
@@ -197,12 +154,12 @@ div:nth-of-type(3) a:hover{
 
 #services{
     text-align: center;
-    background-color: lightgray;
+    background-color: #f1f1f1;
     width: 84.3em;
-    height: 18em;
+    height: 20em;
     margin: 0;
     position: relative;
-    padding-top: 60px;
+    padding-top: 130px;
     font-family: Arial, Helvetica, sans-serif;
      
 
