@@ -182,7 +182,7 @@ a{
 }
 
 a:hover{
-    color: purple;
+    color: plum;
     text-decoration: none;
     text-align: right;  
     
@@ -193,33 +193,59 @@ a:hover{
 div:nth-of-type(3) a{
 
     color: orange;
-    
-
 
 }
 
 div:nth-of-type(3) a:hover{
 
-    color: purple;
-    
-
+    color: pink;
 
 }
 
 
 #services{
+    text-align: center;
     background-color: lightgray;
     width: 84.3em;
-    height: 25em;
+    height: 18em;
     margin: 0;
-    padding: 0;
     position: relative;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
      
 
 }
 
-.li{
+section:nth-of-type(3) ul > li{
 
-
+    background-color: white;
+    height: 50px;
+    width: 190px;
+    margin: 5px;
+    border: 5px;
+    padding-top: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
     
+    
+}
+
+section:nth-of-type(3) ul > li:hover{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+
+}
+
+section:nth-of-type(3) ul > li:nth-of-type(1){
+
+    background-color: orangered;
+
+}
+
+h2{
+    
+    padding-left: 55px;
+    font-size: 30px;
+
 }
